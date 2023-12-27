@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body{
+    background-image: url(/burger\ background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.277);
+    backdrop-filter: blur(15px);
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* border-bottom: 1px solid black; */
+}
+
+.lnav{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.rnav{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 3%;
+}
+
+.rnav > i{
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.mid{
+    height: 90%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+}
+
+.lmid{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.rmid{
+    height: 100%;
+    width: 50%;
+    /* background-color: firebrick; */
+}
+
+.box{
+
+    height: 200px;
+    width: 300px;
+    /* background-color: white; */
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+
+.line{
+    height: 200px;
+    width: 14px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.text h2{
+    font-size: 10vh;
+    font-family: 'Afacad', sans-serif;
+    line-height: 65px;
+}
+
+ .text > h4{
+    font-size: 4.8vh;
+    font-family: 'Afacad', sans-serif;
+    padding-top: 30px; 
+    color: white;
+    font-weight: 400;
+}
+
+.para{
+    height: 100px;
+    width: 250px;
+    /* background-color: white; */
+    position: absolute;
+    bottom: 30%;
+    left: 8.5%;
+}
+
+.para > p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.menu {
+    padding: 6px 18px;
+    background-color: #65426E;
+    border: none;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.btn{
+    padding-top: 4%;
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-between; */
+    
+}
+
+.table{
+    padding: 6px 18px;
+    background-color: #D1B7C4;
+    border: none;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.time{
+    height: 33px;
+    width: 400px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 8%;
+    left: 8.5%;
+}
+
+.time1 > h4 , .time2 > h4 , .time3 > h4{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.time1 > p , .time2 > p , .time3 > p{
+    font-size: 16px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3%;
+    font-weight: 300;
+}
+
+.rmid > img{
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    right: -15%;
+}
